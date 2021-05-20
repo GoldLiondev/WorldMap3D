@@ -19,7 +19,8 @@ export default function markerRenderer(marker) {
         if (child.name.indexOf("Box") > -1) {
           if (marker.send) {
             child.material = new THREE.MeshStandardMaterial({
-              color: 0xce8824,
+              color: 0x6185f2,
+              // 0xce8824
             });
           } else {
             child.material = new THREE.MeshStandardMaterial({
