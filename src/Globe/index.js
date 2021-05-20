@@ -16,6 +16,8 @@ export default function index() {
     <div className="App">
       <ReactGlobe
         height="100vh"
+        globeBackgroundTexture="./assets/image/sky.jpg"
+        globeTexture="./assets/image/earth_map.jpg"
         // globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
         markers={markers}
         width="100vw"
