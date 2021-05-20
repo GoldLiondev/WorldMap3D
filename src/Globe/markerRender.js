@@ -13,6 +13,7 @@ export default function markerRenderer(marker) {
       object.scale.set(0.3, 0.3, 0.3);
       object.rotateX(-Math.PI / 2);
       object.rotateZ(Math.PI);
+      object.translateZ(-5);
 
       object.traverse(function (child) {
         if (child.name.indexOf("Box") > -1) {
