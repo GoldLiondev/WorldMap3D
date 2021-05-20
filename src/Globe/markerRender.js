@@ -35,6 +35,10 @@ export default function markerRenderer(marker) {
           child.material = new THREE.MeshStandardMaterial({
             color: 0xce8824,
           });
+        } else {
+          child.material = new THREE.MeshStandardMaterial({
+            color: 0x000000,
+          });
         }
       });
       scene.add(object);
